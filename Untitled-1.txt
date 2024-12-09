@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYLLABUS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <header>
+    <h1>
+        <span>WELCOME</span>
+        <span>TO</span>
+        <span>KMC</span>
+        <span>RESOURCE</span><br>
+        <span>EXPLORE</span>
+        <span>THE</span>
+        <span>SYLLABUS</span>
+        <span>FOR</span>
+        <span>YOUR</span>
+        <span>BRANCH</span><br><br>
+        <span># The more you learn, the more you grow, and the farther you go</span>
+        
+        
+      </h1>
+   </header>
+   <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Syllabus.." title="Type in a name">
+
+   <table id="myTable">
+     <tr class="header">
+       <th >YEAR/<br>BRANCH</th>
+       <th >1ST</th>
+       <th >2ND</th>
+       <th >3RD</th>
+       <th >4TH</th>
+   
+     </tr>
+     <tr>
+       <td>ZOOLOGY</td>
+       <td><a href="https://drive.google.com/drive/folders/1Mx7Y0tOHvrGkR7zJUp3frtR-zYlP2cQn?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/1v3Dei40SkfgJk3_AHAspiLkkhtJiz8KL?usp=share_link">2nd Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/17rEnefel2yBGW_fBkTiVnqeoFLRBlTSx?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/194GrEyZpvxFeTMZfAS4Bj__wGEa4T5Rv?usp=share_link">4th Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1i7PRhT0a9ytJoE4Xv54tDQ-zvWX2iNrw?usp=sharing">5th Sem</a><br><br><a href="">6th Sem</a></td>
+       <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+          
+     </tr>
+     
+     <tr>
+       <td>BOTANY</td>
+       <td><a href="https://drive.google.com/drive/folders/1V3aSN2cT5mGSPq6Nhe3TQBEYx49HOze0?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/10D8OhohcirtLLB_-c7-xNziCQNxTAn1O?usp=share_link">2nd Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/11QBXU7QW444ksWNDB472Xzv9zxjvBp7U?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/195J14MMSlbimD0qI4jDaTMx1yegMvgnj?usp=share_link">4th Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1nx0ETS8SuC51_0ZNFgG5tqqdPYL2Jved?usp=sharing">5th Sem</a><br><br><a href="">6th Sem</a></td>
+       <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+     
+    </tr>
+     <tr>
+       <td>CHEMISTRY</td>
+       <td><a href="https://drive.google.com/drive/folders/1Mx7Y0tOHvrGkR7zJUp3frtR-zYlP2cQn?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/1v3Dei40SkfgJk3_AHAspiLkkhtJiz8KL?usp=share_link">2nd Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/10cWa2orLXBMrgrn5BiltEDjW7kFaIMq3?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19Cqnzc_zVl8T1og77lQP0MYH4VYQWi8E?usp=share_link">4th Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1LNti9uU1BDWnC7WSNfVI6BDbpiFJxxYM?usp=drive_link">5th Sem</a><br><br><a href="">6th Sem</a></td>
+       <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+     
+       
+     </tr>
+     <tr>
+       <td>COMPUTER SCIENCE</td>
+       <td><a href="https://drive.google.com/drive/folders/15Jpjjlx6cjLtLdmqry4Nhvzfz3a7lNuq?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/1tBQQO25L5QwxQ6A_79S03BnAyONJUbxW?usp=share_link">2nd Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1xvfsulq82fCUEabdWGyGRJ9D6cqntbJW?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/199k999AfbyqWx_5SUShHUBR6KJYAkGTS?usp=share_link">4th Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1lyMSfVv673WGw_sNCQzQxJT7OYCztBnH?usp=drive_link">5th Sem</a><br><br><a href="">6th Sem</a></td>
+       <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+     
+       
+    </tr>
+     <tr>
+       <td>MATHEMATICS</td>
+       <td><a href="https://drive.google.com/drive/folders/1F0uvgPF0XsyNSmtsDObr-aBxRMUV4YdG?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/file/d/1gzbzOe-8WHxfkeE9qj6EHNLIytTzFaaW/view?usp=share_link">2nd Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/120ID8gP5PYXSZdAf2OnREcdrjv-yVgQU?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/192n6eeThWz42Vjznhs36HBi6jfTwYfAU?usp=share_link">4th Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1xWq4OIha9NKqObfywUp9OQ_Fzbn87Jq5?usp=drive_link">5th Sem</a><br><br><a href="">6th Sem</a></td>
+       <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+     
+       
+     </tr>
+     <tr>
+       <td>PHYSICS</td>
+       <td><a href="https://drive.google.com/drive/folders/1F0uvgPF0XsyNSmtsDObr-aBxRMUV4YdG?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/file/d/1gzbzOe-8WHxfkeE9qj6EHNLIytTzFaaW/view?usp=share_link">2nd Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1qsgjjVYhi_HuTf9NHlvVz93Nn6JYJwTD?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19Dw-2Wo7xwz0evIo7LNFelTBjQmAepBC?usp=share_link">4th Sem</a></td>
+       <td><a href="https://drive.google.com/drive/folders/1Gk0SrmbGneMDOC1K7tGN_JWlhsD9cyqG?usp=drive_link">5th Sem</a><br><br><a href="">6th Sem</a></td>
+       <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+     
+        
+     </tr>
+     <tr>
+        <td>POLITICAL SCIENCE</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>PHYSICAL EDUCATION & SPORTS SCIENCES</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>PHILOSOPHY</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>POLITICAL SCIENCE</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>HISTORY</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>HINDI</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>GEOGRAPHY</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>ENGLISH</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>ECONOMICS</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>COMMERCE</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+      <tr>
+        <td>STATISTICS</td>
+        <td><a href="https://drive.google.com/drive/folders/1JkNQoAqmp8YQLr9nQxFU86L4mwzyXDVC?usp=share_link">1st Sem</a><br><br><a href="https://drive.google.com/drive/folders/18wquKS2DX4fzMqekiM7WYkdNkQ18m_mN?usp=share_link">2nd Sem</a></td>
+        <td><a href="https://drive.google.com/drive/folders/1AxLNeGIpdkF2R3ryvxjgQ2FbGnwI6luH?usp=share_link">3rd Sem</a><br><br><a href="https://drive.google.com/drive/folders/19EDLMZPprlZXQmhbBv6vE_khASURUp6v?usp=share_link">4th Sem</a></td>
+        <td><a href="">5th Sem</a><br><br><a href="">6th Sem</a></td>
+        <td><a href="">7th Sem</a><br><br><a href="">8th Sem</a></td>
+      
+        
+      </tr>
+   
+     
+   </table>
+    <br>
+    <script>
+        function myFunction() {
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMC Resource Syllabus</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .subject-box {
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            background-color: #ffffff;
+            transition: transform 0.2s;
+        }
+        .subject-box:hover {
+            transform: scale(1.05);
+        }
+        .btn-fetch {
+            background-color: #007bff;
+            color: white;
+            border: none;
+        }
+        .btn-fetch:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">KMC Resource Syllabus</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Zoology</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Zoology')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Botany</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Botany')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Chemistry</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Chemistry')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Computer Science</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Computer Science')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Mathematics</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Mathematics')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Physics</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Physics')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Political Science</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Political Science')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>History</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('History')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>English</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('English')">Fetch Syllabus</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="subject-box">
+                    <h3>Economics</h3>
+                    <button class="btn btn-fetch" onclick="fetchSyllabus('Economics')">Fetch Syllabus</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      // Sample syllabus data for demonstration
+const syllabusData = {
+    Zoology: "Zoology Syllabus: Introduction to Animal Kingdom, Classification, Anatomy, Physiology, Ecology.",
+    Botany: "Botany Syllabus: Plant Anatomy, Physiology, Taxonomy, Ecology, Plant Genetics.",
+    Chemistry: "Chemistry Syllabus: Organic Chemistry, Inorganic Chemistry, Physical Chemistry, Analytical Chemistry.",
+    "Computer Science": "Computer Science Syllabus: Programming Basics, Data Structures, Algorithms, Software Engineering.",
+    Mathematics: "Mathematics Syllabus: Algebra, Calculus, Geometry, Statistics, Discrete Mathematics.",
+    Physics: "Physics Syllabus: Mechanics, Thermodynamics, Electromagnetism, Quantum Physics.",
+    "Political Science": "Political Science Syllabus: Political Theories, International Relations, Comparative Politics.",
+    History: "History Syllabus: Ancient Civilizations, Medieval History, Modern History, World History.",
+    English: "English Syllabus: Literature, Grammar, Composition, Language Skills.",
+    Economics: "Economics Syllabus: Microeconomics, Macroeconomics, Economic Theories, International Economics."
+};
+
+function fetchSyllabus(subject) {
+    // Get the syllabus content based on the subject
+    const syllabusContent = syllabusData[subject];
+
+    // Check if syllabus content exists
+    if (syllabusContent) {
+        // Create a modal to display the syllabus
+        const modalHtml = `
+            <div class="modal fade" id="syllabusModal" tabindex="-1" role="dialog" aria-labelledby="syllabusModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="syllabusModalLabel">${subject} Syllabus</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>${syllabusContent}</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Append the modal HTML to the body
+        document.body.insertAdjacentHTML('beforeend', modalHtml);
+
+        // Show the modal
+        $('#syllabusModal').modal('show');
+
+        // Remove the modal from the DOM after it's closed
+        $('#syllabusModal').on('hidden.bs.modal', function () {
+            $(this).remove();
+        });
+    } else {
+        alert("Syllabus not found for " + subject);
+    }
+}
+    </script>
+
+   

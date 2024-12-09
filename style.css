@@ -1,0 +1,281 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+    background-color: #f4f7fa;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #6f42c1);
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    border-bottom: 5px solid #343a40;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff, #0056b3); /* Bright blue gradient */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff; /* White color for brand */
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar-brand:hover {
+  color: #ffc107; /* Gold color on hover */
+  transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* White for links */
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+  color: #ffc107 !important; /* Gold color on hover */
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  background-color: rgba(255, 255, 255, 0.1); /* Light background for active link */
+  color: #ffc107 !important; /* Gold color for active link */
+  border-radius: 5px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.card img {
+    border-bottom: 5px solid #6f42c1;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #6f42c1);
+    border: none;
+    transition: background 0.3s, transform 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #5a3e9d);
+    transform: translateY(-2px);
+}
+
+.footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    border-top: 5px solid #ffc107;
+    height: auto;
+}
+
+
+
+.footer a {
+    color: #ffc107;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+}
+/* Additional Styles for Navigation Bar and Overall Layout */
+
+/* Dropdown Menu Styles */
+.navbar .dropdown-menu {
+  background-color: #343a40;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .dropdown-item {
+  color: #ffffff !important;
+  padding: 10px 20px;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Search Bar Styles */
+.search-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.search-bar input {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  transition: border-color 0.3s;
+}
+
+.search-bar input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Card Image Styles */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive Adjustments for Cards */
+@media (max-width: 576px) {
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+/* Animation for Page Load */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+body {
+  animation: fadeIn 0.5s ease-in-out;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f0f4f8;
+}
+.navbar {
+  background-color: #007bff;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #e0e0e0 !important;
+}
+.container {
+  margin-top: 50px;
+  max-width: 500px;
+}
+.form-box {
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
